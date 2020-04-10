@@ -8,7 +8,7 @@ module.exports = {
   remove,
   getProjectActions,
 };
-
+ 
 function get(id) {
   let query = db("projects as p");
 
